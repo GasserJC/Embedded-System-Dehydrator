@@ -6,8 +6,7 @@
 OneWire ds18x20[] = {50,51,52,53,54};
 const int oneWireCount = sizeof(ds18x20)/sizeof(OneWire);
 DallasTemperature sensor[oneWireCount];
-//Pins the LCD is using
-const int rs = 40, en = 41, d4 = 42, d5 = 43, d6 = 44, d7 = 45;
+
 //Time displayed on LED numbers
 static int time = 0;
 const int buttonPin = 49;
